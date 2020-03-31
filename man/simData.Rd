@@ -4,8 +4,16 @@
 \alias{simData}
 \title{simData}
 \usage{
-simData(x, n_genes = 500, n_cells = 300, probs = NULL,
-  p_dd = diag(6)[1, ], p_type = 0, lfc = 2, rel_lfc = NULL)
+simData(
+  x,
+  n_genes = 500,
+  n_cells = 300,
+  probs = NULL,
+  p_dd = diag(6)[1, ],
+  p_type = 0,
+  lfc = 2,
+  rel_lfc = NULL
+)
 }
 \arguments{
 \item{x}{a \code{\link[SingleCellExperiment]{SingleCellExperiment}}.}
